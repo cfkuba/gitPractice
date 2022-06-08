@@ -55,7 +55,7 @@ window.addEventListener('storage', (e) => {
   }
 });
 
-// Sort Select
+
 document.querySelector('#sort').addEventListener('change', (e) => {
   filters.sortBy = e.target.value;
   renderProducts(products, filters);
